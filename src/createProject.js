@@ -12,8 +12,6 @@ const createProject = function (project, config) {
       console.log(`git repository ${project.name} already exists`)
     }
   }
-
-  // console.log(clone)
 }
 
 module.exports = createProject

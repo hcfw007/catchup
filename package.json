@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/hcfw007/catchup/issues"
   },
-  "homepage": "https://github.com/hcfw007/catchup#readme"
+  "homepage": "https://github.com/hcfw007/catchup#readme",
+  "dependencies": {
+    "tree-kill": "^1.2.2"
+  }
 }
