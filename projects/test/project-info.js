@@ -1,6 +1,6 @@
 module.exports = {
   name: 'myonlystar.cn',
-  repository: 'git@github.com:hcfw007/myonlystar.cn.git',
+  repository: 'https://github.com/hcfw007/catchup.git',
   path: '/projects',
   branch: 'main',
 }
