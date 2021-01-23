@@ -1,7 +1,8 @@
-const os = require('os')
+const path = require('path')
+let rootPath = path.join(process.env.HOME || process.env.USERPROFILE, 'catchup-projects')
 
 module.exports = {
   config: {
-    rootPath: os.type() === 'Windows_NT' ? 'C:\\catchup-projects\\' : '~/catchup-projects/',
+    rootPath,
   },
 }
